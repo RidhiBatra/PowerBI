@@ -1,0 +1,19 @@
+Introduction to Business Intelligence (BI)
+Business Intelligence (BI) refers to the strategies, technologies, and tools used by organizations to collect, process, and analyze data in order to make informed business decisions. BI systems transform raw data into meaningful insights through data visualization, reporting, and analytics. These insights help businesses identify trends, detect problems, improve operational efficiency, and make data-driven decisions that align with organizational goals.
+
+BI is widely used across various domains, including financial analysis, operational performance tracking, market research, customer behavior analysis, and risk management. By providing a comprehensive view of business performance, BI empowers stakeholders at all levels to respond quickly to market changes and internal inefficiencies.
+
+Introduction to Power BI
+Power BI is a powerful Business Intelligence tool developed by Microsoft that enables users to visualize and analyze data with greater speed, efficiency, and understanding. It is widely recognized for its user-friendly interface, real-time data access, and interactive dashboards. Power BI allows users to connect to a wide range of data sources, transform raw data using Power Query, and create dynamic reports with drag-and-drop simplicity.
+
+Power BI consists of several components, including:
+
+Power BI Desktop – a free desktop application for data preparation and report creation.
+
+Power BI Service – a cloud-based service for sharing and collaborating on reports and dashboards.
+
+Power BI Mobile – a mobile app for accessing reports on the go.
+
+Power BI Gateway – a bridge to connect on-premises data sources with cloud services.
+
+With its ability to handle large datasets, perform advanced analytics using DAX (Data Analysis Expressions), and integrate with tools like Excel and Azure, Power BI has become a preferred solution for businesses seeking scalable and insightful data analytics.
