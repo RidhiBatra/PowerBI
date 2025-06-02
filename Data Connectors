@@ -1,0 +1,102 @@
+Data Connectors in Power BI
+Data connectors in Power BI are interfaces that allow users to connect to a wide variety of data sources—both cloud-based and on-premises—to import and analyze data. These connectors make it easy to gather data from different platforms and combine it into a unified report or dashboard.
+
+Power BI supports hundreds of data connectors, categorized into several types:
+
+1. File-based Connectors
+Used to import data from files stored locally or in the cloud:
+
+Excel (.xlsx, .xls)
+
+CSV / Text files
+
+XML
+
+JSON
+
+PDF
+
+SharePoint Folder
+
+2. Database Connectors
+Used to connect directly to structured data stored in relational and non-relational databases:
+
+SQL Server
+
+MySQL
+
+Oracle Database
+
+PostgreSQL
+
+IBM DB2
+
+SAP HANA
+
+Amazon Redshift
+
+Snowflake
+
+Teradata
+
+3. Online Services Connectors
+Allow integration with cloud-based services and applications:
+
+Microsoft SharePoint Online
+
+Microsoft Exchange
+
+OneDrive
+
+Google Analytics
+
+Salesforce
+
+Dynamics 365
+
+Azure Data Lake
+
+Facebook, Twitter (limited support)
+
+GitHub
+
+4. Azure Connectors
+Specifically for Microsoft Azure services:
+
+Azure SQL Database
+
+Azure Blob Storage
+
+Azure Data Lake Storage
+
+Azure Cosmos DB
+
+Azure Synapse Analytics
+
+5. Power Platform Connectors
+Integrate with other Microsoft Power Platform tools:
+
+Power Apps
+
+Power Automate
+
+Dataverse (formerly Common Data Service)
+
+6. Web and API Connectors
+Web connector – to fetch data from web pages (HTML tables)
+
+OData feed – for standardized APIs
+
+REST API – for custom or third-party APIs using HTTP requests
+
+7. Other Connectors
+R Script / Python Script – for advanced data processing
+
+ODBC / OLE DB – to connect with any database that supports standard drivers
+
+SAP Business Warehouse
+
+Hadoop File (HDFS)
+
+Custom Connectors
+Power BI also allows developers to create custom connectors using the M language (Power Query SDK), extending Power BI’s capabilities to virtually any data source.
