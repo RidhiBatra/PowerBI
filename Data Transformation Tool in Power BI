@@ -1,0 +1,50 @@
+Data Mining in Power BI 
+
+Data mining in Power BI involves analyzing large datasets to discover patterns, trends, and insights. Power BI helps users prepare data using Power Query, create calculated metrics using DAX, and visualize results through interactive dashboards. It supports basic forecasting, clustering, and key influencer analysis.
+For advanced data mining, Power BI can integrate with R, Python, and Azure Machine Learning to apply predictive models and machine learning algorithms.
+
+Power Query Editor 
+
+Power Query Editor is a data transformation tool in Power BI that allows users to connect, clean, transform, and shape data before loading it into the Power BI model. It provides a user-friendly, no-code interface to perform tasks like:
+
+Removing duplicates or null values
+Filtering rows and columns
+Merging or appending tables
+Changing data types
+Splitting or combining columns
+Creating custom columns with formulas
+Every action in Power Query is recorded as a step, making it easy to track and modify the transformation process.
+
+
+Data Transformation Tool in Power BI: Power Query Editor
+In Power BI, the main data transformation tool is the Power Query Editor.
+
+🔹 What is Power Query Editor?
+Power Query Editor is a built-in feature in Power BI that allows you to connect, clean, and transform data before loading it into the data model for analysis and visualization.
+
+🔹 Key Functions:
+Remove duplicates/nulls
+
+Filter rows or columns
+
+Merge and append tables
+
+Change data types
+
+Split or combine columns
+
+Add custom columns
+
+Pivot/unpivot data
+
+🔹 How It Works:
+Every transformation is recorded as a step in the "Applied Steps" pane.
+
+Uses M language behind the scenes (automatically generated).
+
+Offers both point-and-click interface and custom formula options.
+
+🔹 Purpose:
+To ensure your data is clean, structured, and analysis-ready before it’s visualized in Power BI reports.
+
+
