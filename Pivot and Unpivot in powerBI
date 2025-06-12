@@ -1,0 +1,34 @@
+in powerBI Mostly tables are in verticle format and not in horizontal format now if interviewer asked me to transform verticle table into horizontal table how do i gonna do it
+
+
+
+In Power BI, to transform a vertical table into a horizontal format, I would use the Pivot Column feature in Power Query Editor. I’d go to Transform Data, select the column that I want to pivot 
+(usually the column that has repeating values which should become new column headers), and then use the Pivot Column option. I would choose the appropriate values column to fill the data under the new headers. 
+This effectively turns row values into columns, making the table horizontal. It’s useful when we want to compare categories side by side or create a crosstab format.
+
+Example for better understanding:
+
+If I have a vertical table like this:
+
+Product	Month	Sales
+A	Jan	100
+A	Feb	120
+B	Jan	90
+B	Feb	110
+
+And I want to transform it so that each product has its own row and months become columns:
+
+Product	Jan	Feb
+A	100	120
+B	90	110
+
+I would:
+
+Open Power Query Editor.
+
+Select the Month column.
+
+Click Transform > Pivot Column.
+
+For the values column, choose Sales.
+
