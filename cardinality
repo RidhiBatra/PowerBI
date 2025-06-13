@@ -1,0 +1,21 @@
+Cardinality in Power BI defines the relationship between tables based on data uniqueness. The main types are:
+
+One-to-One: Unique values in both tables.
+One-to-Many: One table has unique values; the other has duplicates.
+Many-to-Many: Both tables have duplicates.
+
+It impacts how tables relate and how filters and visuals behave in reports.
+
+
+In Power BI, the * symbol represents the "many" side of a relationship.
+One-to-Many (1:*): One table has unique values (1), and the other has repeating values (*).
+Many-to-Many (:): Both tables have duplicate values; Power BI shows * : * to indicate this.
+These symbols help you understand how data connects and flows between tables in the model.
+
+
+Cross filter direction in Power BI controls how filters move between tables.    (Excel mai nhi hota hai yeh)
+Single: Filter flows one way (e.g., from Customer to Sales).
+Both: Filter flows both ways (useful for complex models or slicers).
+Use Single for simple models and Both only when needed to avoid confusion or slowdowns.
+
+
