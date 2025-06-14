@@ -1,0 +1,83 @@
+# to create Calculated columns and measures
+# to make new tables based on existing tables
+🔹 Calculated Column
+Adds a new column to a table using row-wise logic.
+
+Stored in the data model.
+
+Used for filtering, grouping, or slicing.
+Example: Status = IF(Sales[Revenue] > 1000, "High", "Low")
+
+🔹 Measure
+Performs dynamic calculations like sum or average.
+
+Not stored, calculated on visuals based on context.
+
+Used for KPIs, totals, ratios.
+Example: Total Sales = SUM(Sales[Revenue])
+
+
+
+
+✅ What is DAX?
+DAX (Data Analysis Expressions) is a formula language used in Power BI to create custom calculations and aggregations on data models.
+
+🔹 1. Aggregation Functions
+Used for summarizing data.
+
+Function	Description	Example
+SUM()	Adds all values in a column	SUM(Sales[Revenue])
+AVERAGE()	Returns the mean	AVERAGE(Sales[Quantity])
+MIN() / MAX()	Returns smallest/largest value	MIN(Employee[Salary])
+
+🔹 2. Logical Functions
+Used for condition-based logic.
+
+Function	Description	Example
+IF()	Checks condition	IF(Sales[Revenue] > 1000, "High", "Low")
+AND(), OR()	Combine multiple conditions	IF(AND(A > 10, B > 5), "Yes", "No")
+
+🔹 3. Text Functions
+Manipulate strings and text.
+
+Function	Description	Example
+CONCATENATE()	Combines two text values	CONCATENATE(A, B)
+LEFT() / RIGHT()	Extract part of string	LEFT(Product[Code], 4)
+LEN()	Gets string length	LEN(Employee[Name])
+
+🔹 4. Date & Time Functions
+Work with date/time data.
+
+Function	Description	Example
+TODAY()	Current date	TODAY()
+YEAR() / MONTH() / DAY()	Extracts parts	YEAR(Order[Date])
+DATEDIFF()	Difference between dates	DATEDIFF(Start, End, YEAR)
+
+🔹 5. Filter Functions
+Used to apply filters inside calculations.
+
+Function	Description	Example
+FILTER()	Returns filtered table	FILTER(Sales, Sales[Amount]>1000)
+CALCULATE()	Changes context of calculation	CALCULATE(SUM(Sales[Revenue]), Sales[Region] = "East")
+
+🔹 6. Time Intelligence Functions
+Handle date-based calculations.
+
+Function	Description	Example
+TOTALYTD()	Year-to-date total	TOTALYTD(SUM(Sales[Revenue]), Date[Date])
+SAMEPERIODLASTYEAR()	Compares same period	SAMEPERIODLASTYEAR(Date[Date])
+PREVIOUSMONTH()	Gets previous month	PREVIOUSMONTH(Date[Date])
+
+🔹 7. Table Functions
+Return entire tables for other operations.
+
+Function	Description	Example
+VALUES()	Unique values in column	VALUES(Product[Category])
+ALL()	Ignores filters	ALL(Sales)
+
+🔹 8. Relationship Functions
+Used across related tables.
+
+Function	Description	Example
+RELATED()	Fetch value from related table	RELATED(Department[DeptName])
+RELATEDTABLE()	Returns related table rows	RELATEDTABLE(Orders)
