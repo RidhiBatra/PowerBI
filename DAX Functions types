@@ -1,0 +1,59 @@
+🔹 Basic Functions
+TODAY() – Current date
+
+NOW() – Current date & time
+
+YEAR(), MONTH(), DAY() – Extract year, month, day
+
+HOUR(), MINUTE(), SECOND() – Extract time components
+
+DATE() – Combine year, month, day into a date
+
+DATEDIFF() – Difference between two dates
+
+🔹 Time Intelligence
+SAMEPERIODLASTYEAR() – Same period last year
+
+DATEADD() – Shift dates (e.g. +1 month)
+
+TOTALYTD(), TOTALMTD(), TOTALQTD() – Year/Month/Quarter-to-date totals
+
+PREVIOUSMONTH(), NEXTQUARTER() – Previous/Next period
+
+
+
+🔹 Key Text Functions
+CONCATENATE() or & – Join texts
+
+LEFT(), RIGHT(), MID() – Extract parts of text
+
+LEN() – Length of text
+
+UPPER(), LOWER() – Change case
+
+TRIM() – Remove extra spaces
+
+REPLACE() – Replace part of text
+
+SEARCH() – Find position of text
+
+COMBINEVALUES() – Joins multiple texts with a delimiter.    (& is used for concatenate)
+
+CONCATENATEX() – Joins values across rows with a delimiter.
+
+FIXED() – Converts number to text with fixed decimals.
+
+EXACT() – Checks if two texts are exactly the same (case-sensitive).TOJSON() – Converts a table or row to JSON format (used in advanced scenarios).
+
+TRIM() – Removes extra spaces from text.
+
+UNICHAR() – Returns the character for a Unicode number.
+
+UNICODE() – Returns the Unicode number of the first character in a text.
+
+UPPER() – Converts text to uppercase.
+
+VALUE() – Converts text to number.
+
+TODAY() – Returns the current date.
+
