@@ -1,0 +1,35 @@
+✅ DAX Operators (Short Summary)
+
+
+🔢 Arithmetic
++ Add
+- Subtract
+* Multiply
+/ Divide
+^ Power
+
+
+🔍 Comparison
+= Equal
+<> Not equal
+>, <, >=, <=
+
+
+
+🧠 Logical
+&& AND
+|| OR
+NOT() Negation
+
+
+🔤 Text
+& Concatenate text ("Total: " & [Sales])
+
+
+📋 Set
+IN → [Region] IN { "East", "West" }
+CONTAINSROW() → Advanced version of IN
+
+🧮 Parentheses
+() → Used for functions & to group logic
+Example: (5 + 2) * 3, CALCULATE(...)
